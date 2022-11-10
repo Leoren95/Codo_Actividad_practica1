@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/Style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <title>TP</title>
+    
+</head>
+<body>
+    <fieldset id="titulo" class="titulo hidden">
+        <table class="row gx-0">
+            <article class="col-md left pt-1 pb-1 ">
+                <h1 class="left"><h1>Codo a Codo </h1></h1>
+            </article>
+            <article class="col-md pt-1 pb-1 ">
+                <h2 class="left text"><a href="#titulo"> Inicio </a></h2>
+                <h2 class="left text"><a href="">Link</a></h2>
+                <h2 class="left text actu"><a href=""> Desactivado </a></h2>
+            </article>
+            <article class="col busc pt-1 pb-1 ">
+                <button class="right" for="buscar">Buscar</button>
+                <input class="right" type="text" id="buscar" name="buscar" placeholder="Buscar">
+            </article>
+        </table>
+    </fieldset>
+    
+    <section class="container">
+        <table>
+            <fieldset class="card left margIni">
+            <article >
+             <img src="img/html.png" width="400" height="225">
+             <h3>titulo 1</h3>
+             <p class="">Contenido de Card</p>
+             <p class="actu">Ultima actualizacion 1</p>
+            </article>
+            </fieldset>
+            <fieldset class="card left">
+            <article>
+             <img src="img/css.png" width="400" height="225">
+             <h3>titulo 2</h3>
+             <p class="">Contenido de Card</p>
+             <p class="actu">Ultima actualizacion 1</p>
+            </article>
+            </fieldset>
+            <fieldset class="card">
+            <article>
+             <img src="img/bootstrap.png" width="400" height="225">
+             <h3>titulo 3</h3>
+             <p class="">Contenido de Card</p>
+             <p class="actu">Ultima actualizacion 1</p>
+            </article>
+            </fieldset>
+        </table>
+    </section>
+    <br>
+    <div>
+        <form action="#" method="post" >
+            <fieldset class="hidden">
+                <label for="email">Email:</label>
+                <br>
+                <input type="text" id="email" name="email" maxlength="40" minlength="5" required>
+                <br>
+                <label for="email" class="actu">Nunca comparta su email.</label>
+                <br>
+                <br>
+                <label for="pass">Contraseña</label>
+                <br>
+                <input type="password" pattern="" placeholder="" id="pass" name="" required>
+                <br>
+                <label for="pass"><input type="checkbox" value="1" id="" name="pass"> Verificar</label>
+            </fieldset>
+            <button class="button env" type="submit">Enviar</button>
+        </form>
+    </div>
+    
+</body>
+</html>
